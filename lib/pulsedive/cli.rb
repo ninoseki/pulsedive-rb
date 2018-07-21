@@ -17,7 +17,7 @@ module Pulsedive
         rescue ResponseError => e
           puts "Warning: #{e}"
         rescue ArgumentError => _
-          puts "Please set your Pulsedive API key via --API_KEY or ENV['PULSEDIVE_API_KEY']"
+          puts "Please provide your Pulsedive API key via --API_KEY or ENV['PULSEDIVE_API_KEY']"
         end
       end
     end
