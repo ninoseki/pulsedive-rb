@@ -4,9 +4,12 @@ require "json"
 module Pulsedive
   module CLI
     class Base < Thor
+
+      class_option :API_KEY, type: :string
+
       no_commands do
         def api
-          API.new
+          options[:API_KEY] ? API.new(options[:API_KEY]) : API.new
         end
 
         def with_error_handling
