@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:51 GMT
+      - Sat, 21 Jul 2018 04:53:28 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -60,5 +60,5 @@ http_interactions:
         05:47:57","uid":"","comment":""},{"iid":1356426,"indicator":"http:\/\/alvoportas.com.br\/modal-reveal\/VSBs.html","type":"url","risk":"critical","stamp_linked":"2018-06-01
         23:18:45","uid":"","comment":""}]}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:51 GMT
+  recorded_at: Sat, 21 Jul 2018 04:53:28 GMT
 recorded_with: VCR 4.0.0

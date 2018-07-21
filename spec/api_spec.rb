@@ -65,6 +65,22 @@ describe Pulsedive::API, :vcr do
       end
     end
   end
+  context "analyze" do
+    describe "#add_to_queue" do
+      it "should return a valid JSON" do
+        json = subject.analyze.add_to_queue("pulsedive.com")
+        expect(json["success"]).to eq("Added  to queue.")
+        expect(json["qid"]).to be_a(Numeric)
+      end
+    end
+    describe "#get_results_by_id" do
+      it "should return a valid JSON" do
+        json = subject.analyze.get_results_by_id(11_793_439)
+        expect(json["success"]).to eq("Analyzed domain: pulsedive.com")
+        expect(json["qid"]).to eq(11_793_439.to_s)
+      end
+    end
+  end
   describe "#search" do
     it "should return a valid JSON" do
       params = {
@@ -79,13 +95,6 @@ describe Pulsedive::API, :vcr do
       }
       json = subject.search(params)
       expect(json["results"]).to be_a(Array)
-    end
-  end
-  describe "#analyze" do
-    it "should return a valid JSON" do
-      json = subject.analyze("pulsedive.com")
-      expect(json["success"]).to eq("Added  to queue.")
-      expect(json["qid"]).to be_a(Numeric)
     end
   end
 end

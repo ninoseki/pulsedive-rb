@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:53 GMT
+      - Sat, 21 Jul 2018 04:53:25 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -43,7 +43,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
-      - '5661'
+      - '5983'
       Content-Type:
       - application/json
     body:
@@ -54,9 +54,11 @@ http_interactions:
         it is often used to steal banking information by man-in-the-browser keystroke
         logging and form grabbing.","wikireference":"https:\/\/en.wikipedia.org\/wiki\/Zeus_(malware)","retired":null,"stamp_added":"2017-09-27
         18:11:38","stamp_updated":"2018-07-06 19:02:51","stamp_seen":"2018-07-06 19:02:13","stamp_retired":null,"updated_last_domain":"2018-07-18
-        00:00:00","comments":[],"othernames":["Zbot"],"techniques":[],"news":[{"title":"2018-07-19
-        - Hancitor infection traffic with AZORult and Zeus Panda Banker","channel":"Malware-Traffic-Analysis.net
-        - Blog Entries","icon":"https:\/\/www.malware-traffic-analysis.net\/favicon.ico","link":"https:\/\/www.malware-traffic-analysis.net\/2018\/07\/19\/index2.html","stamp":"2018-07-20
+        00:00:00","comments":[],"othernames":["Zbot"],"techniques":[],"news":[{"title":"2018-07-20
+        - Emotet infections with Zeus Panda Banker and Trickbot (gtag: del34)","channel":"Malware-Traffic-Analysis.net
+        - Blog Entries","icon":"https:\/\/www.malware-traffic-analysis.net\/favicon.ico","link":"https:\/\/www.malware-traffic-analysis.net\/2018\/07\/20\/index.html","stamp":"2018-07-21
+        01:34:00"},{"title":"2018-07-19 - Hancitor infection traffic with AZORult
+        and Zeus Panda Banker","channel":"Malware-Traffic-Analysis.net - Blog Entries","icon":"https:\/\/www.malware-traffic-analysis.net\/favicon.ico","link":"https:\/\/www.malware-traffic-analysis.net\/2018\/07\/19\/index2.html","stamp":"2018-07-20
         02:56:00"},{"title":"2018-07-19 - Emotet infection traffic with Zeus Panda
         Banker","channel":"Malware-Traffic-Analysis.net - Blog Entries","icon":"https:\/\/www.malware-traffic-analysis.net\/favicon.ico","link":"https:\/\/www.malware-traffic-analysis.net\/2018\/07\/19\/index.html","stamp":"2018-07-20
         01:56:00"},{"title":"2018-07-18 - Quick post: Hancitor infection traffic with
@@ -93,5 +95,5 @@ http_interactions:
         Panda Banker","channel":"Malware-Traffic-Analysis.net - Blog Entries","icon":".\/img\/heart_transparent.png","link":"https:\/\/www.malware-traffic-analysis.net\/2018\/01\/09\/index3.html","stamp":"2018-01-10
         03:24:00"}]}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:53 GMT
+  recorded_at: Sat, 21 Jul 2018 04:53:25 GMT
 recorded_with: VCR 4.0.0

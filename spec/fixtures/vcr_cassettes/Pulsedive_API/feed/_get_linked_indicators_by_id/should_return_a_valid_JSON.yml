@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:48 GMT
+      - Sat, 21 Jul 2018 04:53:22 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -150,5 +150,5 @@ http_interactions:
         09:28:06","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":1574196,"indicator":"casaroyai.com","type":"domain","risk":"critical","stamp_linked":"2018-06-23
         18:59:21","summary":{"properties":{"geo":{"country":"United States of America","city":"Cary","region":"NY","countrycode":"US"}}}}]}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:48 GMT
+  recorded_at: Sat, 21 Jul 2018 04:53:22 GMT
 recorded_with: VCR 4.0.0

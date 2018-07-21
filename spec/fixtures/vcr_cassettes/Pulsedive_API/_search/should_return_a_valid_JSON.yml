@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pulsedive.com/api/search.php?category=vulnerability&key&search=feed&splitrisk=1&value=zeus
+    uri: https://pulsedive.com/api/search.php?category%5B%5D=abuse&category%5B%5D=attack&category%5B%5D=botnet&category%5B%5D=crime&category%5B%5D=fraud&category%5B%5D=general&category%5B%5D=group&category%5B%5D=malware&category%5B%5D=proxy&category%5B%5D=pup&category%5B%5D=reconnaissance&category%5B%5D=spam&category%5B%5D=terrorism&category%5B%5D=vulnerability&key=&search=feed&splitrisk=1&value=zeus
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:46 GMT
+      - Sat, 21 Jul 2018 04:53:27 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -43,12 +43,17 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
-      - '14'
+      - '571'
       Content-Type:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"results":[]}'
+      string: '{"results":[{"fid":1,"name":"Zeus Bad Domains","category":"malware","organization":"abuse.ch","schedule":"daily","stamp_updated":"2017-10-29
+        20:19:04","stamp_pulled":"2018-07-20 17:33:01","stamp_modified":"2018-07-20
+        17:33:01","indicators":{"critical":"17","high":"52","medium":"17","low":"2"}},{"fid":2,"name":"Zeus
+        Bad IPs","category":"malware","organization":"abuse.ch","schedule":"daily","stamp_updated":"2017-10-29
+        20:19:01","stamp_pulled":"2018-07-20 17:33:04","stamp_modified":"2018-07-20
+        17:33:04","indicators":{"high":"3","none":"87","medium":"14","low":"48"}}]}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:47 GMT
+  recorded_at: Sat, 21 Jul 2018 04:53:28 GMT
 recorded_with: VCR 4.0.0

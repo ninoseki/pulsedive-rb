@@ -5,7 +5,7 @@ http_interactions:
     uri: https://pulsedive.com/api/analyze.php
     body:
       encoding: US-ASCII
-      string: ioc=cHVsc2VkaXZlLmNvbQ%3D%3D&enrich=1&probe=1&key
+      string: ioc=cHVsc2VkaXZlLmNvbQ%3D%3D&enrich=1&probe=1&key=<API_KEY>
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:49 GMT
+      - Sat, 21 Jul 2018 05:37:00 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -48,7 +48,7 @@ http_interactions:
       - application/json
     body:
       encoding: UTF-8
-      string: '{"success":"Added  to queue.","qid":11780845}'
+      string: '{"success":"Added  to queue.","qid":11802401}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:50 GMT
+  recorded_at: Sat, 21 Jul 2018 05:37:00 GMT
 recorded_with: VCR 4.0.0

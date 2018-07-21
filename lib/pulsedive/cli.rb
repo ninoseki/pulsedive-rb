@@ -108,27 +108,40 @@ module Pulsedive
       end
     end
 
-    class Main < Base
-      desc "indicator SUBCOMMAND", "indicator commands"
-      subcommand "indicator", Indicator
-
-      desc "threat SUBCOMMAND", "threat commands"
-      subcommand "threat", Threat
-
-      desc "feed SUBCOMMAND", "feed commands"
-      subcommand "feed", Feed
-
+    class Analyze < Base
       option :enrich, type: :numeric
       option :probe, type: :numeric
-      desc "analyze [IOC]", "analyze ioc"
-      def analyze(ioc)
+      desc "add_to_queue [IOC]", "add ioc to the queue for analysis"
+      def add_to_queue(ioc)
         enrich = options[:enrich] || 1
         probe = options[:probe] || 1
         with_error_handling do
-          json = api.analyze(ioc, enrich, probe)
+          json = api.analyze.add_to_queue(ioc, enrich, probe)
           puts JSON.pretty_generate(json)
         end
       end
+
+      desc "get_results_by_id [ID]", "get analyze result"
+      def get_results_by_id(id)
+        with_error_handling do
+          json = api.analyze.get_results_by_id(id)
+          puts JSON.pretty_generate(json)
+        end
+      end
+    end
+
+    class Main < Thor
+      desc "indicator COMMAND", "indicator commands"
+      subcommand "indicator", Indicator
+
+      desc "threat COMMAND", "threat commands"
+      subcommand "threat", Threat
+
+      desc "feed COMMAND", "feed commands"
+      subcommand "feed", Feed
+
+      desc "analyze COMMAND", "analyze commands"
+      subcommand "analyze", Analyze
     end
   end
 end

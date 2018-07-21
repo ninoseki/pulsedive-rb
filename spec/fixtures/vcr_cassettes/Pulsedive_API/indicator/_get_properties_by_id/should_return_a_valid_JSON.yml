@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 21 Jul 2018 01:21:50 GMT
+      - Sat, 21 Jul 2018 04:53:30 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -88,24 +88,24 @@ http_interactions:
         11:08:32","name":"++expires","value":"2019-06-11 00:00:00","latest":1},{"pid":2876539,"stamp_seen":"2018-05-23
         05:24:51","name":"++expires","value":"2018-06-11 00:00:00","latest":0},{"pid":9127091,"stamp_seen":"2018-07-12
         11:08:32","name":"admin-c","value":"JMN226","latest":1},{"pid":3432962,"stamp_seen":"2018-07-12
-        11:08:32","name":"billing-c","value":"DOM58","latest":1},{"pid":3432965,"stamp_seen":"2018-07-12
-        11:08:32","name":"changed","value":"20150205","latest":1},{"pid":15302696,"stamp_seen":"2018-07-12
-        11:08:32","name":"changed","value":"20060926","latest":1},{"pid":3057867,"stamp_seen":"2018-07-12
-        11:08:32","name":"changed","value":"20160914","latest":1},{"pid":254682,"stamp_seen":"2018-07-12
+        11:08:32","name":"billing-c","value":"DOM58","latest":1},{"pid":3057867,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20160914","latest":1},{"pid":15302696,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20060926","latest":1},{"pid":3432965,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20150205","latest":1},{"pid":254682,"stamp_seen":"2018-07-12
         11:08:32","name":"Country","value":"BR","latest":1},{"pid":15302699,"stamp_seen":"2018-07-12
-        11:08:32","name":"created","value":"20050611 changed:     20180524","latest":1},{"pid":13679611,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20050611 changed:     20180524","latest":1},{"pid":3432966,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20020907","latest":1},{"pid":13679611,"stamp_seen":"2018-07-12
         11:08:32","name":"created","value":"20051112","latest":1},{"pid":7325310,"stamp_seen":"2018-07-12
-        11:08:32","name":"created","value":"20041216","latest":1},{"pid":3432966,"stamp_seen":"2018-07-12
-        11:08:32","name":"created","value":"20020907","latest":1},{"pid":9127095,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20041216","latest":1},{"pid":9127095,"stamp_seen":"2018-07-12
         11:08:32","name":"domain","value":"alvoportas.com.br","latest":1},{"pid":15302694,"stamp_seen":"2018-07-12
         11:08:32","name":"e-mail","value":"h@brasnet.org","latest":1},{"pid":13290324,"stamp_seen":"2018-07-12
         11:08:32","name":"e-mail","value":"omeulote@gmail.com","latest":1},{"pid":13290337,"stamp_seen":"2018-07-12
         11:08:32","name":"e-mail","value":"hospedagem@emid.com.br","latest":1},{"pid":12727344,"stamp_seen":"2018-07-12
         11:08:32","name":"expires","value":"20190611","latest":1},{"pid":9127096,"stamp_seen":"2018-05-23
-        05:24:51","name":"expires","value":"20180611","latest":0},{"pid":3432972,"stamp_seen":"2018-07-12
-        11:08:32","name":"nic-hdl-br","value":"DOM58","latest":1},{"pid":9127097,"stamp_seen":"2018-07-12
+        05:24:51","name":"expires","value":"20180611","latest":0},{"pid":9127097,"stamp_seen":"2018-07-12
         11:08:32","name":"nic-hdl-br","value":"JMN226","latest":1},{"pid":15302695,"stamp_seen":"2018-07-12
-        11:08:32","name":"nic-hdl-br","value":"ZEC15","latest":1},{"pid":15302697,"stamp_seen":"2018-07-12
+        11:08:32","name":"nic-hdl-br","value":"ZEC15","latest":1},{"pid":3432972,"stamp_seen":"2018-07-12
+        11:08:32","name":"nic-hdl-br","value":"DOM58","latest":1},{"pid":15302697,"stamp_seen":"2018-07-12
         11:08:32","name":"nserver","value":"ns1.emidhost4.com.br","latest":1},{"pid":3432975,"stamp_seen":"2018-07-12
         11:08:32","name":"nserver","value":"ns2.emidhost4.com.br","latest":1},{"pid":15916182,"stamp_seen":"2018-07-12
         11:08:32","name":"nslastaa","value":"20180710","latest":1},{"pid":15615353,"stamp_seen":"2018-07-09
@@ -208,13 +208,13 @@ http_interactions:
         18:11:39","name":"nsstat","value":"20170926 AA","latest":0},{"pid":9127101,"stamp_seen":"2018-07-12
         11:08:32","name":"owner","value":"C.L.F. IND. E COM DE ESQUADRIAS DE MADEIRA
         LTDA","latest":1},{"pid":9127102,"stamp_seen":"2018-07-12 11:08:32","name":"owner-c","value":"ZEC15","latest":1},{"pid":13290322,"stamp_seen":"2018-07-12
-        11:08:32","name":"ownerid","value":"00.218.763\/0001-03","latest":1},{"pid":9127103,"stamp_seen":"2018-07-12
+        11:08:32","name":"ownerid","value":"00.218.763\/0001-03","latest":1},{"pid":3432985,"stamp_seen":"2018-07-12
+        11:08:32","name":"person","value":"Douglas Moscheto","latest":1},{"pid":9127103,"stamp_seen":"2018-07-12
         11:08:32","name":"person","value":"Joni Marcos Niesdaviecki","latest":1},{"pid":15302698,"stamp_seen":"2018-07-12
-        11:08:32","name":"person","value":"Zero Cool","latest":1},{"pid":3432985,"stamp_seen":"2018-07-12
-        11:08:32","name":"person","value":"Douglas Moscheto","latest":1},{"pid":13290323,"stamp_seen":"2018-07-12
+        11:08:32","name":"person","value":"Zero Cool","latest":1},{"pid":13290323,"stamp_seen":"2018-07-12
         11:08:32","name":"responsible","value":"Zero Cool","latest":1},{"pid":2735941,"stamp_seen":"2018-07-12
         11:08:32","name":"status","value":"published","latest":1},{"pid":3432991,"stamp_seen":"2018-07-12
         11:08:32","name":"tech-c","value":"DOM58","latest":1}]}'
     http_version: 
-  recorded_at: Sat, 21 Jul 2018 01:21:50 GMT
+  recorded_at: Sat, 21 Jul 2018 04:53:30 GMT
 recorded_with: VCR 4.0.0
