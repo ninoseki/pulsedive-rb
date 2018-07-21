@@ -16,8 +16,8 @@ module Pulsedive
           yield
         rescue ResponseError => e
           puts "Warning: #{e}"
-        rescue ArugemtnError => _
-          puts "Please set your Pulsedive API key vai ENV['PULSEDIVE_API_KEY'] or --API_KEY"
+        rescue ArgumentError => _
+          puts "Please set your Pulsedive API key via --API_KEY or ENV['PULSEDIVE_API_KEY']"
         end
       end
     end
