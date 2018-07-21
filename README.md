@@ -1,11 +1,9 @@
 # pulsedive-rb
 
-A Ruby library for [Pulsedive](https://pulsedive.com/) API.
-
 [![Build Status](https://travis-ci.org/ninoseki/pulsedive-rb.svg?branch=master)](https://travis-ci.org/ninoseki/pulsedive-rb)
 [![Maintainability](https://api.codeclimate.com/v1/badges/35b08b3018cee65b42a0/maintainability)](https://codeclimate.com/github/ninoseki/pulsedive-rb/maintainability)
 
-Ruby client for the pulsedive API
+A Ruby library for [Pulsedive](https://pulsedive.com/) API
 
 ## Installation
 
