@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?iid=2&key=<API_KEY>&schema=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 01:27:25 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '3104'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"iid":2,"type":"domain","indicator":"alvoportas.com.br","risk":"high","risk_recommended":"high","manualrisk":0,"retired":null,"stamp_added":"2017-09-27
+        18:11:38","stamp_updated":"2018-07-12 11:08:32","stamp_seen":"2018-07-12 11:08:22","stamp_probed":"2018-07-12
+        11:08:32","stamp_retired":null,"recent":0,"riskfactors":[{"rfid":33,"description":"blocked
+        by Quad9","risk":"high"},{"rfid":2,"description":"found in third-party feeds","risk":"medium"},{"rfid":3,"description":"all
+        linked indicators return PTR records","risk":"none"}],"attributes":{"port":["443","80"],"protocol":["HTTP","HTTPS"],"technology":["Apache","jQuery","mod_perl","mod_ssl","OpenSSL","Perl","UNIX"]},"domain":null,"domainiid":null,"properties":{"dns":{"A":"187.191.98.202","MNAME":"ns1.emidhost4.com.br","MX":"alvoportas.com.br","NS":["ns1.emidhost4.com.br"],"RNAME":"cloud@emid.com.br","SOA":"ns1.emidhost4.com.br.
+        cloud.emid.com.br. 2015112601 86400 7200 3600000 86400"},"http":{"Client-Response-Num":"1","Client-Transfer-Encoding":"chunked","Connection":"close","Content-Type":"text\/html","Server":"Apache\/2.2.31
+        (Unix) mod_ssl\/2.2.31 OpenSSL\/1.0.1e-fips mod_bwlimited\/1.4 mod_qos\/11.5
+        mod_perl\/2.0.8 Perl\/v5.10.1","X-Powered-By":"PHP\/5.5.30"},"meta":{"author":"E-MID
+        Ag\u00c3\u00aancia Digital (www.emid.com.br)","content-language":"pt-BR","distribution":"global","googlebot":"index,
+        follow","msapplication-TileColor":"#ffffff","msapplication-TileImage":"\/favicon\/ms-icon-144x144.png","Pragma":"no-cache","rating":"general","RESOURCE-TYPE":"DOCUMENT","revisit-after":"7
+        days","Robots":"all, index, follow","SKYPE_TOOLBAR":"SKYPE_TOOLBAR_PARSER_COMPATIBLE","theme-color":"#ffffff","viewport":"width=device-width,initial-scale=1,maximum-scale=2"},"ssl":{"cipher":"ECDHE-RSA-AES256-GCM-SHA384","domain":"alvoportas.com.br","issuer":"\/C=US\/ST=TX\/L=Houston\/O=cPanel,
+        Inc.\/CN=cPanel, Inc. Certification Authority","subject":"\/CN=alvoportas.com.br"},"whois":{"++expires":"2019-06-11
+        00:00:00","admin-c":"JMN226","billing-c":"DOM58","changed":["20160914","20150205"],"Country":"BR","created":["20051112","20020907","20041216"],"domain":"alvoportas.com.br","e-mail":["omeulote@gmail.com","hospedagem@emid.com.br"],"expires":"20190611","nic-hdl-br":["JMN226","ZEC15"],"nserver":["ns1.emidhost4.com.br"],"nslastaa":"20180710","nsstat":"20180710
+        AA","owner":"C.L.F. IND. E COM DE ESQUADRIAS DE MADEIRA LTDA","owner-c":"ZEC15","ownerid":"00.218.763\/0001-03","person":["Douglas
+        Moscheto","Zero Cool"],"responsible":"Zero Cool","status":"published","tech-c":"DOM58"}},"threats":[{"tid":67,"name":"Phishing","category":"spam","risk":"medium","stamp_linked":"2018-01-22
+        08:49:31"},{"tid":1,"name":"Zeus","category":"malware","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"}],"feeds":[{"fid":23,"name":"Suspicious Domains","category":"general","organization":"DShield","stamp_linked":"2018-05-16
+        07:08:40"},{"fid":1,"name":"Zeus Bad Domains","category":"malware","organization":"abuse.ch","stamp_linked":"2018-05-08
+        14:55:46"}],"schema":{"hosttype":"Host Type","port":"Port","protocol":"Protocol","technology":"Technology"}}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 01:27:25 GMT
+recorded_with: VCR 4.0.0

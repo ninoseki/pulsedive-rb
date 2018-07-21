@@ -1,0 +1,68 @@
+require 'net/https'
+
+module Pulsedive
+  class Client
+
+    attr_reader :api_key
+
+    HOST = "pulsedive.com".freeze
+    URL = "https://#{HOST}".freeze
+
+    def initialize(api_key)
+      @api_key = api_key
+    end
+
+    private
+
+    def url_for(path)
+      URI(URL + path)
+    end
+
+    def https_options
+      if proxy = ENV["HTTPS_PROXY"] || ENV["https_proxy"]
+        uri = URI(proxy)
+        {
+          proxy_address:  uri.hostname,
+          proxy_port:     uri.port,
+          proxy_from_env: false,
+          use_ssl: true
+        }
+      else
+        { use_ssl: true }
+      end
+    end
+
+    def request(req)
+      Net::HTTP.start(HOST, 443, https_options) do |http|
+        response = http.request(req)
+        if response.code == '200'
+          json = JSON.parse(response.body)
+          if json["error"]
+            raise(ResponseError, json["error"])
+          else
+            yield json
+          end
+        else
+          raise(ResponseError, "unsupported response code returned: #{response.code}")
+        end
+      end
+    end
+
+    def get(path, params, &block)
+      params["key"] = api_key
+
+      url = url_for(path)
+      url.query = URI.encode_www_form(params)
+      get = Net::HTTP::Get.new(url)
+      request(get, &block)
+    end
+
+    def post(path, params , &block)
+      params["key"] = api_key
+
+      post = Net::HTTP::Post.new(url_for(path))
+      post.body = URI.encode_www_form(params)
+      request(post, &block)
+    end
+  end
+end

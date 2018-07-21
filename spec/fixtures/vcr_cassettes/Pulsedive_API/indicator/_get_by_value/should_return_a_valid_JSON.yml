@@ -1,0 +1,104 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?indicator=pulsedive.com&key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 01:21:52 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '5626'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"iid":53929,"type":"domain","indicator":"pulsedive.com","risk":"none","risk_recommended":"none","manualrisk":0,"retired":"No
+        recent activity","stamp_added":"2017-10-04 01:20:55","stamp_updated":"2018-07-17
+        17:06:22","stamp_seen":"2018-07-17 17:06:22","stamp_probed":"2018-07-16 06:54:01","stamp_retired":null,"recent":0,"redirects":{"to":[{"iid":649248,"indicator":"https:\/\/pulsedive.com"}]},"riskfactors":[{"rfid":3,"description":"all
+        linked indicators return PTR records","risk":"none"},{"rfid":44,"description":"registration
+        details hidden","risk":"unknown"}],"attributes":{"port":["443"],"protocol":["HTTPS"],"technology":["Apache","Clipboard.js","Font
+        Awesome","Google Font API","jQuery","Stripe"]},"domain":null,"domainiid":null,"properties":{"cookies":{"PHPSESSID":"797ag687m70663104uu3gp8q27"},"dns":{"A":"206.251.255.36","MNAME":"ns-cloud-d1.googledomains.com","MX":["gmr-smtp-in.l.google.com","alt2.gmr-smtp-in.l.google.com","alt4.gmr-smtp-in.l.google.com","alt1.gmr-smtp-in.l.google.com"],"NS":["ns-cloud-d1.googledomains.com","ns-cloud-d4.googledomains.com","ns-cloud-d2.googledomains.com"],"RNAME":"cloud-dns-hostmaster@google.com","SOA":"ns-cloud-d1.googledomains.com.
+        cloud-dns-hostmaster.google.com. 22 21600 3600 259200 300"},"geo":{"address":"96
+        Mowat Ave","city":"Toronto","country":"Canada","countrycode":"CA","org":"Contact
+        Privacy Inc. Customer 124912322","region":"ON","zip":"M4K 3K1"},"http":{"Cache-Control":"max-age=0,
+        no-cache, no-store, must-revalidate, post-check=0, pre-check=0","Client-Response-Num":"1","Connection":"close","Content-Length":"52648","Content-Type":"text\/html;
+        charset=UTF-8","Pragma":"no-cache","Server":"Apache","Set-Cookie":"PHPSESSID=797ag687m70663104uu3gp8q27;
+        expires=Mon, 23-Jul-2018 06:54:01 GMT; path=\/; secure; HttpOnly","Strict-Transport-Security":"max-age=31536000;
+        includeSubDomains","Vary":"Accept-Encoding","X-Content-Type-Options":"nosniff","X-Frame-Options":"SAMEORIGIN","X-Mod-Pagespeed":"1.13.35.2-0","X-XSS-Protection":"1;
+        mode=block"},"meta":{"author":"Pulsedive LLC","content-type":"text\/html;
+        charset=utf-8","description":"Search and correlate IOCs, threats, and feeds
+        with Pulsedive, the free threat intelligence platform.","keywords":"cyber
+        threat intelligence feeds,cyber threat intelligence dashboard,cyber threat
+        dashboard,osint threat intelligence,threat,threat intel,threat intelligence,cyber
+        threat intelligence,cybersecurity,threat,threat protection,unified threat
+        management,network security,information security,cyber,it security,free threat
+        intelligence,open source threat intelligence platform,threat intelligence
+        platform,threat intelligence feeds,reduce false positives,vet threat intelligence,ioc","og:description":"Search
+        and correlate IOCs, threats, and feeds with Pulsedive, the free threat intelligence
+        platform.","og:image":"https:\/\/pulsedive.com\/img\/screenshots\/threat.png","og:title":"Cyber
+        Threat Intelligence - Pulsedive","og:url":"https:\/\/pulsedive.com","twitter:card":"summary_large_image","twitter:creator":"@netbroom","twitter:description":"Search
+        and correlate IOCs, threats, and feeds with Pulsedive, the free threat intelligence
+        platform.","twitter:image":"https:\/\/pulsedive.com\/img\/screenshots\/threat.png","twitter:site":"@pulsedive","twitter:title":"Cyber
+        Threat Intelligence - Pulsedive","viewport":"width=device-width, initial-scale=1"},"ssl":{"cipher":"ECDHE-RSA-AES256-GCM-SHA384","domain":"pulsedive.com","issuer":"\/C=US\/O=Let''s
+        Encrypt\/CN=Let''s Encrypt Authority X3","subject":"\/CN=pulsedive.com"},"whois":{"++abuse":"registrar-abuse@google.com","++email":"urb6dpdrhxz4@contactprivacy.email","++expires":"2018-11-11
+        00:00:00","++phone":"+1.4165385487","++privacy":"true","++registered":"2016-11-11
+        00:00:00","++registrant":"Contact Privacy Inc. Customer 124912322","++updated":"2017-09-29
+        00:00:00","Admin City":"Toronto","Admin Country":"CA","Admin Email":"urb6dpdrhxz4@contactprivacy.email","Admin
+        Name":"Contact Privacy Inc. Customer 124912322","Admin Organization":"Contact
+        Privacy Inc. Customer 124912322","Admin Phone":"+1.4165385487","Admin Postal
+        Code":"M4K 3K1","Admin State\/Province":"ON","Admin Street":"96 Mowat Ave","Creation
+        Date":"2016-11-11T21:18:19Z","DNSSEC":"unSigned","Domain Name":"pulsedive.com","Domain
+        Status":"ok https:\/\/www.icann.org\/eppRegistry Registrant ID:","Name Server":["NS-CLOUD-D2.GOOGLEDOMAINS.COM","NS-CLOUD-D3.GOOGLEDOMAINS.COM","ns-cloud-d1.googledomains.com"],"Registrant
+        City":"Toronto","Registrant Country":"CA","Registrant Email":"urb6dpdrhxz4@contactprivacy.email","Registrant
+        Name":"Contact Privacy Inc. Customer 124912322","Registrant Organization":"Contact
+        Privacy Inc. Customer 124912322","Registrant Phone":"+1.4165385487","Registrant
+        Postal Code":"M4K 3K1","Registrant State\/Province":"ON","Registrant Street":"96
+        Mowat Ave","Registrar":"Google LLC","Registrar Abuse Contact Email":"registrar-abuse@google.com","Registrar
+        Abuse Contact Phone":"+1.8772376466","Registrar IANA ID":"895","Registrar
+        Registration Expiration Date":"2018-11-11T21:18:19Z","Registrar URL":"https:\/\/domains.google.com","Registrar
+        WHOIS Server":"whois.google.com","Registry Domain ID":"2073459391_DOMAIN_COM-VRSN","Tech
+        City":"Toronto","Tech Country":"CA","Tech Email":"urb6dpdrhxz4@contactprivacy.email","Tech
+        Name":"Contact Privacy Inc. Customer 124912322","Tech Organization":"Contact
+        Privacy Inc. Customer 124912322","Tech Phone":"+1.4165385487","Tech Postal
+        Code":"M4K 3K1","Tech State\/Province":"ON","Tech Street":"96 Mowat Ave","Updated
+        Date":"2017-09-29T01:12:35Z","URL of the ICANN WHOIS Data Problem Reporting
+        System":"http:\/\/wdprs.internic.net\/"}}}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 01:21:52 GMT
+recorded_with: VCR 4.0.0
