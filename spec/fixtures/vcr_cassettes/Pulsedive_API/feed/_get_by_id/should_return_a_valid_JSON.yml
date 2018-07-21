@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?fid=1&key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 04:53:22 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '354'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"fid":1,"feed":"Zeus Bad Domains","category":"malware","organization":"abuse.ch","contact":{"name":"","phone":"","email":""},"schedule":"daily","stamp_added":"2017-09-27
+        00:00:00","stamp_updated":"2017-10-29 20:19:04","stamp_pulled":"2018-07-20
+        17:33:01","stamp_modified":"2018-07-20 17:33:01","indicators":{"low":2,"medium":17,"high":52,"critical":17}}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 04:53:22 GMT
+recorded_with: VCR 4.0.0

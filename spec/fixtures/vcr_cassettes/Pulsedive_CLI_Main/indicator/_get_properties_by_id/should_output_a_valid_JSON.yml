@@ -1,0 +1,220 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?get=properties&iid=2&key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 05:23:46 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"dns":[{"pid":15302704,"stamp_seen":"2018-07-12 11:08:32","name":"A","value":"187.191.98.202","latest":1},{"pid":15302700,"stamp_seen":"2018-07-12
+        11:08:32","name":"MNAME","value":"ns1.emidhost4.com.br","latest":1},{"pid":15302706,"stamp_seen":"2018-07-12
+        11:08:32","name":"MX","value":"alvoportas.com.br","latest":1},{"pid":15302702,"stamp_seen":"2018-07-12
+        11:08:32","name":"NS","value":"ns1.emidhost4.com.br","latest":1},{"pid":15302701,"stamp_seen":"2018-07-12
+        11:08:32","name":"NS","value":"ns2.emidhost4.com.br","latest":1},{"pid":15302703,"stamp_seen":"2018-07-12
+        11:08:32","name":"RNAME","value":"cloud@emid.com.br","latest":1},{"pid":15302705,"stamp_seen":"2018-07-12
+        11:08:32","name":"SOA","value":"ns1.emidhost4.com.br. cloud.emid.com.br. 2015112601
+        86400 7200 3600000 86400","latest":1}],"http":[{"pid":7903137,"stamp_seen":"2018-07-12
+        11:08:32","name":"Client-Response-Num","value":"1","latest":1},{"pid":7903138,"stamp_seen":"2018-07-12
+        11:08:32","name":"Client-Transfer-Encoding","value":"chunked","latest":1},{"pid":7903139,"stamp_seen":"2018-07-12
+        11:08:32","name":"Connection","value":"close","latest":1},{"pid":8107619,"stamp_seen":"2017-11-15
+        04:07:34","name":"Content-Length","value":"253","latest":0},{"pid":7903140,"stamp_seen":"2018-07-12
+        11:08:32","name":"Content-Type","value":"text\/html","latest":1},{"pid":7903254,"stamp_seen":"2017-11-15
+        04:07:34","name":"Content-Type","value":"text\/html;charset=ISO-8859-1","latest":0},{"pid":7903367,"stamp_seen":"2018-07-12
+        11:08:32","name":"Server","value":"Apache\/2.2.31 (Unix) mod_ssl\/2.2.31 OpenSSL\/1.0.1e-fips
+        mod_bwlimited\/1.4 mod_qos\/11.5 mod_perl\/2.0.8 Perl\/v5.10.1","latest":1},{"pid":8107621,"stamp_seen":"2017-11-15
+        04:07:34","name":"Server","value":"Apache\/2.4.25 (Unix) OpenSSL\/1.0.1e-fips
+        mod_bwlimited\/1.4","latest":0},{"pid":7903369,"stamp_seen":"2018-07-12 11:08:32","name":"X-Powered-By","value":"PHP\/5.5.30","latest":1}],"meta":[{"pid":15825139,"stamp_seen":"2018-07-12
+        11:08:32","name":"author","value":"E-MID Ag\u00c3\u00aancia Digital (www.emid.com.br)","latest":1},{"pid":15665642,"stamp_seen":"2018-07-12
+        11:08:32","name":"content-language","value":"pt-BR","latest":1},{"pid":15663069,"stamp_seen":"2018-07-12
+        11:08:32","name":"distribution","value":"global","latest":1},{"pid":15666958,"stamp_seen":"2018-07-12
+        11:08:32","name":"googlebot","value":"index, follow","latest":1},{"pid":15662975,"stamp_seen":"2018-07-12
+        11:08:32","name":"msapplication-TileColor","value":"#ffffff","latest":1},{"pid":15694758,"stamp_seen":"2018-07-12
+        11:08:32","name":"msapplication-TileImage","value":"\/favicon\/ms-icon-144x144.png","latest":1},{"pid":15662839,"stamp_seen":"2018-07-12
+        11:08:32","name":"Pragma","value":"no-cache","latest":1},{"pid":15664266,"stamp_seen":"2018-07-12
+        11:08:32","name":"rating","value":"general","latest":1},{"pid":15664753,"stamp_seen":"2018-07-12
+        11:08:32","name":"RESOURCE-TYPE","value":"DOCUMENT","latest":1},{"pid":15663986,"stamp_seen":"2018-07-12
+        11:08:32","name":"revisit-after","value":"7 days","latest":1},{"pid":15669274,"stamp_seen":"2018-07-12
+        11:08:32","name":"Robots","value":"all, index, follow","latest":1},{"pid":15664479,"stamp_seen":"2018-07-12
+        11:08:32","name":"SKYPE_TOOLBAR","value":"SKYPE_TOOLBAR_PARSER_COMPATIBLE","latest":1},{"pid":15665539,"stamp_seen":"2018-07-12
+        11:08:32","name":"theme-color","value":"#ffffff","latest":1},{"pid":15754746,"stamp_seen":"2018-07-12
+        11:08:32","name":"viewport","value":"width=device-width,initial-scale=1,maximum-scale=2","latest":1}],"ssl":[{"pid":7903291,"stamp_seen":"2018-07-12
+        11:08:32","name":"cipher","value":"ECDHE-RSA-AES256-GCM-SHA384","latest":1},{"pid":10365975,"stamp_seen":"2018-07-12
+        11:08:32","name":"domain","value":"alvoportas.com.br","latest":1},{"pid":7903293,"stamp_seen":"2018-07-12
+        11:08:32","name":"issuer","value":"\/C=US\/ST=TX\/L=Houston\/O=cPanel, Inc.\/CN=cPanel,
+        Inc. Certification Authority","latest":1},{"pid":10365977,"stamp_seen":"2018-07-12
+        11:08:32","name":"subject","value":"\/CN=alvoportas.com.br","latest":1}],"whois":[{"pid":12447215,"stamp_seen":"2018-07-12
+        11:08:32","name":"++expires","value":"2019-06-11 00:00:00","latest":1},{"pid":2876539,"stamp_seen":"2018-05-23
+        05:24:51","name":"++expires","value":"2018-06-11 00:00:00","latest":0},{"pid":9127091,"stamp_seen":"2018-07-12
+        11:08:32","name":"admin-c","value":"JMN226","latest":1},{"pid":3432962,"stamp_seen":"2018-07-12
+        11:08:32","name":"billing-c","value":"DOM58","latest":1},{"pid":3432965,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20150205","latest":1},{"pid":3057867,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20160914","latest":1},{"pid":15302696,"stamp_seen":"2018-07-12
+        11:08:32","name":"changed","value":"20060926","latest":1},{"pid":254682,"stamp_seen":"2018-07-12
+        11:08:32","name":"Country","value":"BR","latest":1},{"pid":13679611,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20051112","latest":1},{"pid":15302699,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20050611 changed:     20180524","latest":1},{"pid":7325310,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20041216","latest":1},{"pid":3432966,"stamp_seen":"2018-07-12
+        11:08:32","name":"created","value":"20020907","latest":1},{"pid":9127095,"stamp_seen":"2018-07-12
+        11:08:32","name":"domain","value":"alvoportas.com.br","latest":1},{"pid":13290337,"stamp_seen":"2018-07-12
+        11:08:32","name":"e-mail","value":"hospedagem@emid.com.br","latest":1},{"pid":15302694,"stamp_seen":"2018-07-12
+        11:08:32","name":"e-mail","value":"h@brasnet.org","latest":1},{"pid":13290324,"stamp_seen":"2018-07-12
+        11:08:32","name":"e-mail","value":"omeulote@gmail.com","latest":1},{"pid":12727344,"stamp_seen":"2018-07-12
+        11:08:32","name":"expires","value":"20190611","latest":1},{"pid":9127096,"stamp_seen":"2018-05-23
+        05:24:51","name":"expires","value":"20180611","latest":0},{"pid":15302695,"stamp_seen":"2018-07-12
+        11:08:32","name":"nic-hdl-br","value":"ZEC15","latest":1},{"pid":3432972,"stamp_seen":"2018-07-12
+        11:08:32","name":"nic-hdl-br","value":"DOM58","latest":1},{"pid":9127097,"stamp_seen":"2018-07-12
+        11:08:32","name":"nic-hdl-br","value":"JMN226","latest":1},{"pid":3432975,"stamp_seen":"2018-07-12
+        11:08:32","name":"nserver","value":"ns2.emidhost4.com.br","latest":1},{"pid":15302697,"stamp_seen":"2018-07-12
+        11:08:32","name":"nserver","value":"ns1.emidhost4.com.br","latest":1},{"pid":15916182,"stamp_seen":"2018-07-12
+        11:08:32","name":"nslastaa","value":"20180710","latest":1},{"pid":15615353,"stamp_seen":"2018-07-09
+        08:25:07","name":"nslastaa","value":"20180705","latest":0},{"pid":15147748,"stamp_seen":"2018-06-23
+        18:59:29","name":"nslastaa","value":"20180619","latest":0},{"pid":14528388,"stamp_seen":"2018-06-11
+        20:33:41","name":"nslastaa","value":"20180608","latest":0},{"pid":14439298,"stamp_seen":"2018-06-07
+        05:42:52","name":"nslastaa","value":"20180604","latest":0},{"pid":14344579,"stamp_seen":"2018-06-04
+        02:01:51","name":"nslastaa","value":"20180531","latest":0},{"pid":14235752,"stamp_seen":"2018-05-30
+        16:47:23","name":"nslastaa","value":"20180527","latest":0},{"pid":14194462,"stamp_seen":"2018-05-25
+        15:05:13","name":"nslastaa","value":"20180525","latest":0},{"pid":14090194,"stamp_seen":"2018-05-23
+        05:24:51","name":"nslastaa","value":"20180520","latest":0},{"pid":14009467,"stamp_seen":"2018-05-18
+        22:10:26","name":"nslastaa","value":"20180517","latest":0},{"pid":13856749,"stamp_seen":"2018-05-16
+        07:08:44","name":"nslastaa","value":"20180512","latest":0},{"pid":13837341,"stamp_seen":"2018-05-10
+        23:10:41","name":"nslastaa","value":"20180510","latest":0},{"pid":13794356,"stamp_seen":"2018-05-08
+        14:55:56","name":"nslastaa","value":"20180507","latest":0},{"pid":13634147,"stamp_seen":"2018-05-05
+        16:48:56","name":"nslastaa","value":"20180502","latest":0},{"pid":13589947,"stamp_seen":"2018-05-01
+        20:08:02","name":"nslastaa","value":"20180428","latest":0},{"pid":13578524,"stamp_seen":"2018-04-27
+        09:00:34","name":"nslastaa","value":"20180425","latest":0},{"pid":13511990,"stamp_seen":"2018-04-18
+        06:59:13","name":"nslastaa","value":"20180414","latest":0},{"pid":13456502,"stamp_seen":"2018-04-06
+        10:37:04","name":"nslastaa","value":"20180404","latest":0},{"pid":13287353,"stamp_seen":"2018-03-25
+        10:09:59","name":"nslastaa","value":"20180325","latest":0},{"pid":13263655,"stamp_seen":"2018-03-24
+        15:37:36","name":"nslastaa","value":"20180321","latest":0},{"pid":13201921,"stamp_seen":"2018-03-21
+        02:33:06","name":"nslastaa","value":"20180318","latest":0},{"pid":13049737,"stamp_seen":"2018-03-13
+        13:01:26","name":"nslastaa","value":"20180311","latest":0},{"pid":13001428,"stamp_seen":"2018-03-09
+        08:44:57","name":"nslastaa","value":"20180308","latest":0},{"pid":12950542,"stamp_seen":"2018-03-05
+        09:19:57","name":"nslastaa","value":"20180304","latest":0},{"pid":12891547,"stamp_seen":"2018-02-28
+        19:51:15","name":"nslastaa","value":"20180228","latest":0},{"pid":12546658,"stamp_seen":"2018-02-24
+        09:59:31","name":"nslastaa","value":"20180222","latest":0},{"pid":12423508,"stamp_seen":"2018-02-19
+        23:43:41","name":"nslastaa","value":"20180218","latest":0},{"pid":12403230,"stamp_seen":"2018-02-16
+        17:47:42","name":"nslastaa","value":"20180215","latest":0},{"pid":9015559,"stamp_seen":"2018-01-05
+        01:55:20","name":"nslastaa","value":"20171229","latest":0},{"pid":9003403,"stamp_seen":"2017-12-27
+        01:55:02","name":"nslastaa","value":"20171226","latest":0},{"pid":8869253,"stamp_seen":"2017-12-23
+        15:32:31","name":"nslastaa","value":"20171222","latest":0},{"pid":8768605,"stamp_seen":"2017-12-19
+        15:32:22","name":"nslastaa","value":"20171217","latest":0},{"pid":8752211,"stamp_seen":"2017-12-13
+        15:32:11","name":"nslastaa","value":"20171211","latest":0},{"pid":8744161,"stamp_seen":"2017-12-10
+        00:12:45","name":"nslastaa","value":"20171208","latest":0},{"pid":8603306,"stamp_seen":"2017-11-28
+        09:58:14","name":"nslastaa","value":"20171127","latest":0},{"pid":8568680,"stamp_seen":"2017-11-24
+        09:58:12","name":"nslastaa","value":"20171123","latest":0},{"pid":8215334,"stamp_seen":"2017-11-19
+        17:09:27","name":"nslastaa","value":"20171117","latest":0},{"pid":7923962,"stamp_seen":"2017-11-15
+        04:07:35","name":"nslastaa","value":"20171112","latest":0},{"pid":6432900,"stamp_seen":"2017-11-07
+        03:47:25","name":"nslastaa","value":"20171107","latest":0},{"pid":3559202,"stamp_seen":"2017-10-30
+        02:22:09","name":"nslastaa","value":"20171028","latest":0},{"pid":3393346,"stamp_seen":"2017-10-27
+        02:22:03","name":"nslastaa","value":"20171023","latest":0},{"pid":3392098,"stamp_seen":"2017-10-23
+        02:21:55","name":"nslastaa","value":"20171021","latest":0},{"pid":2742392,"stamp_seen":"2017-10-18
+        03:33:54","name":"nslastaa","value":"20171018","latest":0},{"pid":2345606,"stamp_seen":"2017-10-15
+        03:02:19","name":"nslastaa","value":"20171014","latest":0},{"pid":1871986,"stamp_seen":"2017-10-12
+        03:02:13","name":"nslastaa","value":"20171010","latest":0},{"pid":1175230,"stamp_seen":"2017-10-07
+        03:02:03","name":"nslastaa","value":"20171004","latest":0},{"pid":834626,"stamp_seen":"2017-10-04
+        03:01:57","name":"nslastaa","value":"20171001","latest":0},{"pid":4650,"stamp_seen":"2017-10-01
+        03:01:51","name":"nslastaa","value":"20170928","latest":0},{"pid":1,"stamp_seen":"2017-09-27
+        18:11:39","name":"nslastaa","value":"20170926","latest":0},{"pid":15916181,"stamp_seen":"2018-07-12
+        11:08:32","name":"nsstat","value":"20180710 AA","latest":1},{"pid":15615352,"stamp_seen":"2018-07-09
+        08:25:07","name":"nsstat","value":"20180705 AA","latest":0},{"pid":15147746,"stamp_seen":"2018-06-23
+        18:59:29","name":"nsstat","value":"20180619 AA","latest":0},{"pid":14528387,"stamp_seen":"2018-06-11
+        20:33:41","name":"nsstat","value":"20180608 AA","latest":0},{"pid":14439297,"stamp_seen":"2018-06-07
+        05:42:52","name":"nsstat","value":"20180604 AA","latest":0},{"pid":14344578,"stamp_seen":"2018-06-04
+        02:01:51","name":"nsstat","value":"20180531 AA","latest":0},{"pid":14235751,"stamp_seen":"2018-05-30
+        16:47:23","name":"nsstat","value":"20180527 AA","latest":0},{"pid":14194463,"stamp_seen":"2018-05-25
+        15:05:13","name":"nsstat","value":"20180525 AA","latest":0},{"pid":14090193,"stamp_seen":"2018-05-23
+        05:24:51","name":"nsstat","value":"20180520 AA","latest":0},{"pid":14009466,"stamp_seen":"2018-05-18
+        22:10:26","name":"nsstat","value":"20180517 AA","latest":0},{"pid":13856750,"stamp_seen":"2018-05-16
+        07:08:44","name":"nsstat","value":"20180512 AA","latest":0},{"pid":13837340,"stamp_seen":"2018-05-10
+        23:10:41","name":"nsstat","value":"20180510 AA","latest":0},{"pid":13794355,"stamp_seen":"2018-05-08
+        14:55:56","name":"nsstat","value":"20180507 AA","latest":0},{"pid":13634148,"stamp_seen":"2018-05-05
+        16:48:56","name":"nsstat","value":"20180502 AA","latest":0},{"pid":13589946,"stamp_seen":"2018-05-01
+        20:08:02","name":"nsstat","value":"20180428 AA","latest":0},{"pid":13578522,"stamp_seen":"2018-04-27
+        09:00:34","name":"nsstat","value":"20180425 AA","latest":0},{"pid":13511989,"stamp_seen":"2018-04-18
+        06:59:13","name":"nsstat","value":"20180414 AA","latest":0},{"pid":13456501,"stamp_seen":"2018-04-06
+        10:37:04","name":"nsstat","value":"20180404 AA","latest":0},{"pid":13287352,"stamp_seen":"2018-03-25
+        10:09:59","name":"nsstat","value":"20180325 AA","latest":0},{"pid":13263654,"stamp_seen":"2018-03-24
+        15:37:36","name":"nsstat","value":"20180321 AA","latest":0},{"pid":13201920,"stamp_seen":"2018-03-21
+        02:33:06","name":"nsstat","value":"20180318 AA","latest":0},{"pid":13049736,"stamp_seen":"2018-03-13
+        13:01:26","name":"nsstat","value":"20180311 AA","latest":0},{"pid":13001427,"stamp_seen":"2018-03-09
+        08:44:57","name":"nsstat","value":"20180308 AA","latest":0},{"pid":12950541,"stamp_seen":"2018-03-05
+        09:19:57","name":"nsstat","value":"20180304 AA","latest":0},{"pid":12891546,"stamp_seen":"2018-02-28
+        19:51:15","name":"nsstat","value":"20180228 AA","latest":0},{"pid":12546659,"stamp_seen":"2018-02-24
+        09:59:31","name":"nsstat","value":"20180222 AA","latest":0},{"pid":12423507,"stamp_seen":"2018-02-19
+        23:43:41","name":"nsstat","value":"20180218 AA","latest":0},{"pid":12403229,"stamp_seen":"2018-02-16
+        17:47:42","name":"nsstat","value":"20180215 AA","latest":0},{"pid":9015560,"stamp_seen":"2018-01-05
+        01:55:20","name":"nsstat","value":"20171229 AA","latest":0},{"pid":9003404,"stamp_seen":"2017-12-27
+        01:55:02","name":"nsstat","value":"20171226 AA","latest":0},{"pid":8869254,"stamp_seen":"2017-12-23
+        15:32:31","name":"nsstat","value":"20171222 AA","latest":0},{"pid":8768606,"stamp_seen":"2017-12-19
+        15:32:22","name":"nsstat","value":"20171217 AA","latest":0},{"pid":8752213,"stamp_seen":"2017-12-13
+        15:32:11","name":"nsstat","value":"20171211 AA","latest":0},{"pid":8744162,"stamp_seen":"2017-12-10
+        00:12:45","name":"nsstat","value":"20171208 AA","latest":0},{"pid":8603307,"stamp_seen":"2017-11-28
+        09:58:14","name":"nsstat","value":"20171127 AA","latest":0},{"pid":8568681,"stamp_seen":"2017-11-24
+        09:58:12","name":"nsstat","value":"20171123 AA","latest":0},{"pid":8215335,"stamp_seen":"2017-11-19
+        17:09:27","name":"nsstat","value":"20171117 AA","latest":0},{"pid":7923963,"stamp_seen":"2017-11-15
+        04:07:35","name":"nsstat","value":"20171112 AA","latest":0},{"pid":6432903,"stamp_seen":"2017-11-07
+        03:47:25","name":"nsstat","value":"20171107 AA","latest":0},{"pid":3559203,"stamp_seen":"2017-10-30
+        02:22:09","name":"nsstat","value":"20171028 AA","latest":0},{"pid":3393348,"stamp_seen":"2017-10-27
+        02:22:03","name":"nsstat","value":"20171023 AA","latest":0},{"pid":3392099,"stamp_seen":"2017-10-23
+        02:21:55","name":"nsstat","value":"20171021 AA","latest":0},{"pid":2742393,"stamp_seen":"2017-10-18
+        03:33:54","name":"nsstat","value":"20171018 AA","latest":0},{"pid":2345607,"stamp_seen":"2017-10-15
+        03:02:19","name":"nsstat","value":"20171014 AA","latest":0},{"pid":1871987,"stamp_seen":"2017-10-12
+        03:02:13","name":"nsstat","value":"20171010 AA","latest":0},{"pid":1175231,"stamp_seen":"2017-10-07
+        03:02:03","name":"nsstat","value":"20171004 AA","latest":0},{"pid":834627,"stamp_seen":"2017-10-04
+        03:01:57","name":"nsstat","value":"20171001 AA","latest":0},{"pid":4651,"stamp_seen":"2017-10-01
+        03:01:51","name":"nsstat","value":"20170928 AA","latest":0},{"pid":2,"stamp_seen":"2017-09-27
+        18:11:39","name":"nsstat","value":"20170926 AA","latest":0},{"pid":9127101,"stamp_seen":"2018-07-12
+        11:08:32","name":"owner","value":"C.L.F. IND. E COM DE ESQUADRIAS DE MADEIRA
+        LTDA","latest":1},{"pid":9127102,"stamp_seen":"2018-07-12 11:08:32","name":"owner-c","value":"ZEC15","latest":1},{"pid":13290322,"stamp_seen":"2018-07-12
+        11:08:32","name":"ownerid","value":"00.218.763\/0001-03","latest":1},{"pid":15302698,"stamp_seen":"2018-07-12
+        11:08:32","name":"person","value":"Zero Cool","latest":1},{"pid":3432985,"stamp_seen":"2018-07-12
+        11:08:32","name":"person","value":"Douglas Moscheto","latest":1},{"pid":9127103,"stamp_seen":"2018-07-12
+        11:08:32","name":"person","value":"Joni Marcos Niesdaviecki","latest":1},{"pid":13290323,"stamp_seen":"2018-07-12
+        11:08:32","name":"responsible","value":"Zero Cool","latest":1},{"pid":2735941,"stamp_seen":"2018-07-12
+        11:08:32","name":"status","value":"published","latest":1},{"pid":3432991,"stamp_seen":"2018-07-12
+        11:08:32","name":"tech-c","value":"DOM58","latest":1}]}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 05:23:46 GMT
+recorded_with: VCR 4.0.0

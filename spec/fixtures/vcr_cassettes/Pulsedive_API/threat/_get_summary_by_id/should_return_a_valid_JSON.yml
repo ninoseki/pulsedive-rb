@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?get=links&key=<API_KEY>&splitrisk=1&summary=1&tid=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 04:53:23 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '2847'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"risk":{"critical":19,"unknown":24,"medium":47,"high":63,"low":71,"none":368},"feeds":[{"fid":2,"name":"Zeus
+        Bad IPs","category":"malware","organization":"abuse.ch","indicators":{"none":86,"low":48,"medium":14,"high":3}},{"fid":1,"name":"Zeus
+        Bad Domains","category":"malware","organization":"abuse.ch","indicators":{"high":52,"critical":17,"medium":17,"low":2}},{"fid":9,"name":"SSL
+        BL","category":"malware","organization":"abuse.ch","indicators":{"medium":1,"none":1}}],"attributes":{"hosttype":{"Name
+        Server":{"indicators":{"none":227,"unknown":16,"low":13,"medium":7,"high":3}},"Subdomain":{"indicators":{"none":73,"high":23,"medium":12,"critical":9,"low":8,"unknown":7}}},"protocol":{"DNS":{"indicators":{"none":227,"unknown":16,"low":13,"medium":7,"high":3}},"HTTP":{"indicators":{"none":114,"high":35,"medium":24,"low":18,"critical":11,"unknown":4}},"HTTPS":{"indicators":{"none":82,"high":26,"critical":12,"medium":9,"low":8,"unknown":4}}},"port":{"80":{"indicators":{"none":114,"high":35,"medium":24,"low":18,"critical":11,"unknown":4}},"443":{"indicators":{"none":82,"high":26,"critical":12,"medium":9,"low":8,"unknown":4}},"53":{"indicators":{"none":79,"unknown":15,"low":7,"medium":6}}},"technology":{"IIS\\;confidence:50":{"indicators":{"none":45}},"Microsoft
+        ASP.NET":{"indicators":{"none":45}},"Nginx":{"indicators":{"high":9,"critical":7,"low":3}},"Apache":{"indicators":{"none":5,"high":5}},"OpenSSL":{"indicators":{"high":3}},"UNIX":{"indicators":{"high":3}}}},"properties":{"http":[{"name":"Content-Length","value":"15","indicators":7},{"name":"X-Server","value":"832b6ada206b","indicators":6},{"name":"Content-Length","value":"111","indicators":6},{"name":"X-Server","value":"e8d5a39cd56c","indicators":6},{"name":"X-Server","value":"988f5b830859","indicators":6},{"name":"X-Server","value":"57828ec44553","indicators":6},{"name":"X-Server","value":"0f04b5cb843e","indicators":6},{"name":"X-Server","value":"473d96c057bf","indicators":6},{"name":"X-Server","value":"e3f9cef1a381","indicators":6},{"name":"X-Server","value":"4104d7119cd8","indicators":5},{"name":"X-Server","value":"07d0503c7cec","indicators":5},{"name":"X-Server","value":"3c10875df08f","indicators":5},{"name":"X-Server","value":"09de81980949","indicators":5},{"name":"X-Server","value":"726b8d49d587","indicators":5},{"name":"X-Server","value":"e8f55ae6d781","indicators":5},{"name":"X-Server","value":"42dddfb046ab","indicators":5},{"name":"X-Server","value":"e64da627178f","indicators":5},{"name":"X-Server","value":"a85c71ab7978","indicators":5},{"name":"X-Server","value":"815f2f1fdcf9","indicators":5},{"name":"X-Server","value":"d3dd348c7547","indicators":5},{"name":"X-Server","value":"3fdfa9edd3a0","indicators":5}],"whois":[{"name":"++updated","value":"2015-05-04
+        00:00:00","indicators":5},{"name":"++registrant","value":"IN.NET","indicators":5}]}}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 04:53:23 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?get=links&iid=2&key=<API_KEY>&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 04:53:28 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '1603'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"Active DNS":[{"iid":3,"indicator":"187.191.98.202","type":"ip","risk":"none","stamp_linked":"2018-07-12
+        11:08:32","uid":"","comment":"","summary":{"properties":{"geo":{"country":"Brazil","org":"Mandic
+        S.A.","countrycode":"BR"}}}},{"iid":6,"indicator":"ns2.emidhost4.com.br","type":"domain","risk":"unknown","stamp_linked":"2018-05-17
+        19:06:01","uid":"","comment":""},{"iid":7,"indicator":"ns1.emidhost4.com.br","type":"domain","risk":"unknown","stamp_linked":"2018-05-17
+        19:06:01","uid":"","comment":""}],"Related URLs":[{"iid":438914,"indicator":"http:\/\/alvoportas.com.br\/phpmailer\/docs\/update\/chaseonline\/update.profile.php","type":"url","risk":"retired","stamp_linked":"2018-01-22
+        08:49:30","uid":"","comment":""},{"iid":851251,"indicator":"http:\/\/alvoportas.com.br\/imagens\/slideshow\/gen_259.0.html","type":"url","risk":"retired","stamp_linked":"2018-03-15
+        21:49:48","uid":"","comment":""},{"iid":955026,"indicator":"http:\/\/alvoportas.com.br\/imagens\/temp\/VSBx.html","type":"url","risk":"retired","stamp_linked":"2018-04-06
+        05:41:47","uid":"","comment":""},{"iid":958394,"indicator":"http:\/\/alvoportas.com.br\/imagens\/slideshow\/gen_259.00.html","type":"url","risk":"retired","stamp_linked":"2018-04-06
+        08:09:19","uid":"","comment":""},{"iid":1232731,"indicator":"http:\/\/alvoportas.com.br\/js\/vendor\/VSBs.html","type":"url","risk":"critical","stamp_linked":"2018-05-21
+        05:47:57","uid":"","comment":""},{"iid":1356426,"indicator":"http:\/\/alvoportas.com.br\/modal-reveal\/VSBs.html","type":"url","risk":"critical","stamp_linked":"2018-06-01
+        23:18:45","uid":"","comment":""}]}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 04:53:28 GMT
+recorded_with: VCR 4.0.0

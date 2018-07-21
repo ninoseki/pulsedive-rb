@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?fid=1&get=links&key=<API_KEY>&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 21 Jul 2018 05:23:44 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"page_current":0,"results":[{"iid":1,"indicator":"afobal.cl","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":2,"indicator":"alvoportas.com.br","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":4,"indicator":"az-armaturen.su","type":"domain","risk":"critical","stamp_linked":"2017-09-30
+        07:01:48"},{"iid":12,"indicator":"bestdove.in.ua","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":13,"indicator":"blogerjijer.pw","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":25,"indicator":"bright.su","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":26,"indicator":"citricbenz.website","type":"domain","risk":"critical","stamp_linked":"2017-11-30
+        15:35:10"},{"iid":29,"indicator":"danislenefc.info","type":"domain","risk":"high","stamp_linked":"2017-11-30
+        15:35:11","summary":{"properties":{"geo":{"country":"Barbados","region":"ST.
+        MICHAEL","countrycode":"BB"}}}},{"iid":35,"indicator":"dau43vt5wtrd.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":37,"indicator":"dzitech.net","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:52","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Canada","city":"Toronto","region":"ON","countrycode":"CA"}}}},{"iid":38,"indicator":"ebesee.com","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:53"},{"iid":47,"indicator":"gmailsecurityteam.com","type":"domain","risk":"high","stamp_linked":"2017-12-27
+        06:55:55","summary":{"properties":{"geo":{"country":"United States of America","city":"Mountain
+        View","region":"California","countrycode":"US"}}}},{"iid":49,"indicator":"goodbytoname.com","type":"domain","risk":"medium","stamp_linked":"2017-10-25
+        06:22:10","summary":{"properties":{"geo":{"country":"United States of America","city":"Drums","region":"PA","countrycode":"US"}}}},{"iid":56,"indicator":"hruner.com","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:55","summary":{"properties":{"geo":{"country":"United States of America","region":"Georgia","countrycode":"US"}}}},{"iid":59,"indicator":"hui-ain-apparel.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:56"},{"iid":60,"indicator":"ice.ip64.net","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:55:56","summary":{"properties":{"geo":{"country":"Canada","city":"White
+        Rock","region":"British Columbia","countrycode":"CA"}}}},{"iid":63,"indicator":"istyle.ge","type":"domain","risk":"low","stamp_linked":"2017-10-24
+        06:22:10"},{"iid":72,"indicator":"ivansaru.418.com1.ru","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:55:59"},{"iid":83,"indicator":"jangasm.org","type":"domain","risk":"high","stamp_linked":"2018-05-05
+        16:49:00","summary":{"properties":{"geo":{"country":"United States of America","region":"Georgia","countrycode":"US"}}}},{"iid":88,"indicator":"jump1ng.net","type":"domain","risk":"low","stamp_linked":"2017-12-19
+        20:35:29","summary":{"properties":{"geo":{"country":"United States of America","region":"Georgia","countrycode":"US"}}}},{"iid":92,"indicator":"kesikelyaf.com","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:55:59","summary":{"properties":{"geo":{"country":"Turkey","countrycode":"TR"}}}},{"iid":99,"indicator":"kntksales.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:04"},{"iid":108,"indicator":"lion.web2.0campus.net","type":"domain","risk":"high","stamp_linked":"2017-10-08
+        07:02:20","summary":{"properties":{"geo":{"country":"Switzerland","city":"BASEL","countrycode":"CH"}}}},{"iid":112,"indicator":"liuz112.ddns.net","type":"domain","risk":"high","stamp_linked":"2017-11-24
+        14:58:50","summary":{"properties":{"geo":{"country":"United States of America","city":"Reno","region":"NV","countrycode":"US"}}}},{"iid":125,"indicator":"luenhinpearl.com","type":"domain","risk":"medium","stamp_linked":"2018-05-02
+        20:08:14"},{"iid":131,"indicator":"machine.cu.ma","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:07"},{"iid":148,"indicator":"maminoleinc.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:08"},{"iid":152,"indicator":"metalexvietnamreed.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:09"},{"iid":153,"indicator":"nasscomminc.tk","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:09"},{"iid":155,"indicator":"ns511849.ip-192-99-19.net","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:10","summary":{"properties":{"geo":{"country":"Canada","city":"Montr\u00c3\u00a9al","region":"Montreal","countrycode":"CA"}}}},{"iid":159,"indicator":"ns513726.ip-192-99-148.net","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:10","summary":{"properties":{"geo":{"country":"Canada","city":"Montr\u00c3\u00a9al","countrycode":"CA"}}}},{"iid":163,"indicator":"nsdic.pp.ru","type":"domain","risk":"medium","stamp_linked":"2018-05-08
+        14:56:11"},{"iid":165,"indicator":"p-alpha.ooo.al","type":"domain","risk":"high","stamp_linked":"2018-04-27
+        09:00:52"},{"iid":170,"indicator":"pandyi.com","type":"domain","risk":"medium","stamp_linked":"2017-10-17
+        07:38:39","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"United
+        States of America","city":"KIRKLAND","region":"WA","countrycode":"US"}}}},{"iid":172,"indicator":"panel.vargakragard.se","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:14"},{"iid":188,"indicator":"platinum-casino.ru","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:14"},{"iid":195,"indicator":"projects.globaltronics.net","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:14","summary":{"properties":{"geo":{"country":"Philippines","city":"San
+        Juan","countrycode":"PH"}}}},{"iid":204,"indicator":"sanyai-love.rmu.ac.th","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:15"},{"iid":211,"indicator":"server.bovine-mena.com","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:16","summary":{"properties":{"geo":{"country":"Italy","region":"Mantua","countrycode":"IT"}}}},{"iid":219,"indicator":"servmill.com","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:18","summary":{"properties":{"geo":{"country":"India","region":"Telangana","countrycode":"IN"}}}},{"iid":226,"indicator":"ssl.sinergycosmetics.com","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:21","summary":{"properties":{"geo":{"country":"Italy","city":"MISANO
+        ADRIATICO","region":"RN","countrycode":"IT"}}}},{"iid":229,"indicator":"sus.nieuwmoer.info","type":"domain","risk":"high","stamp_linked":"2017-11-24
+        14:59:44","summary":{"properties":{"geo":{"country":"Belgium","city":"Nieuwmoer","region":"Nieuwmoer","countrycode":"BE"}}}},{"iid":239,"indicator":"telefonfiyatlari.org","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:22","summary":{"properties":{"geo":{"country":"Turkey","city":"ISTANBUL","region":"ISTANBUL","countrycode":"TR"}}}},{"iid":246,"indicator":"update.odeen.eu","type":"domain","risk":"high","stamp_linked":"2017-11-24
+        14:59:47"},{"iid":248,"indicator":"update.rifugiopontese.it","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:22"},{"iid":257,"indicator":"updateacces.org","type":"domain","risk":"critical","stamp_linked":"2017-11-22
+        22:22:21","summary":{"properties":{"geo":{"country":"United States of America","region":"District
+        of Columbia","countrycode":"US"}}}},{"iid":267,"indicator":"vodahelp.sytes.net","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:23","summary":{"properties":{"geo":{"country":"United States of America","city":"Reno","region":"NV","countrycode":"US"}}}},{"iid":274,"indicator":"www.antibasic.ga","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:23"},{"iid":282,"indicator":"www.nikey.cn","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:25"},{"iid":284,"indicator":"www.poloatmer.ru","type":"domain","risk":"medium","stamp_linked":"2018-05-08
+        14:56:26"},{"iid":295,"indicator":"www.riverwalktrader.co.za","type":"domain","risk":"high","stamp_linked":"2017-10-24
+        06:22:51","summary":{"properties":{"geo":{"country":"South Africa","city":"Midrand","region":"Gauteng","countrycode":"ZA"}}}},{"iid":305,"indicator":"www.slapintins.publicvm.com","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:28","summary":{"properties":{"geo":{"country":"Canada","city":"Cincinnati","region":"OH","countrycode":"CA"}}}},{"iid":312,"indicator":"www.witkey.com","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:56:28","summary":{"properties":{"geo":{"country":"China","city":"Hangzhou","region":"Zhejiang","countrycode":"CN"}}}},{"iid":316,"indicator":"zabava-bel.ru","type":"domain","risk":"high","stamp_linked":"2017-12-15
+        20:33:19"},{"iid":37690,"indicator":"bora.studentworkbook.pw","type":"domain","risk":"high","stamp_linked":"2017-10-18
+        08:32:56"},{"iid":47090,"indicator":"gyalkingerz.com","type":"domain","risk":"high","stamp_linked":"2017-10-05
+        07:02:07"},{"iid":57340,"indicator":"l3d.pp.ru","type":"domain","risk":"medium","stamp_linked":"2018-05-08
+        14:56:04"},{"iid":66362,"indicator":"police-fbi.securityservice.review","type":"domain","risk":"high","stamp_linked":"2017-10-08
+        07:02:39"},{"iid":105299,"indicator":"hotelavalon.org","type":"domain","risk":"medium","stamp_linked":"2018-02-06
+        14:46:27"},{"iid":105323,"indicator":"interlogistics.com.vn","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:55:58"},{"iid":105410,"indicator":"domnicpeter.in.net","type":"domain","risk":"critical","stamp_linked":"2018-05-08
+        14:55:46","summary":{"properties":{"geo":{"country":"United Arab Emirates","city":"Ras
+        Al Khaimah","region":"Ras al-Khaimah","countrycode":"AE"}}}},{"iid":105425,"indicator":"mycraft.com.br","type":"domain","risk":"high","stamp_linked":"2018-04-18
+        06:59:25"},{"iid":105428,"indicator":"prk.firstconf.3gb.biz","type":"domain","risk":"high","stamp_linked":"2018-05-01
+        20:08:21","summary":{"properties":{"geo":{"country":"Egypt","countrycode":"EG"}}}},{"iid":105520,"indicator":"teksoft.pro","type":"domain","risk":"medium","stamp_linked":"2018-06-04
+        02:02:07","summary":{"properties":{"geo":{"country":"United States of America","city":"Los
+        Angeles","region":"CA","countrycode":"US"}}}},{"iid":105521,"indicator":"grupocava-mx.com","type":"domain","risk":"high","stamp_linked":"2017-12-23
+        20:33:45"},{"iid":105759,"indicator":"www.bilbobaggins.comxa.com","type":"domain","risk":"high","stamp_linked":"2017-11-24
+        15:00:59","summary":{"properties":{"geo":{"country":"Cyprus","countrycode":"CY"}}}},{"iid":105796,"indicator":"securetestingnetwotk.com","type":"domain","risk":"medium","stamp_linked":"2017-11-10
+        08:48:17"},{"iid":105817,"indicator":"www.perilshed.info","type":"domain","risk":"high","stamp_linked":"2018-04-18
+        06:59:46","summary":{"properties":{"geo":{"country":"Barbados","city":"St.
+        Michael","region":"ST. MICHAEL","countrycode":"BB"}}}},{"iid":105912,"indicator":"obyno.xyz","type":"domain","risk":"medium","stamp_linked":"2018-02-28
+        19:51:44"},{"iid":105947,"indicator":"fadzulani.com","type":"domain","risk":"medium","stamp_linked":"2018-04-18
+        06:59:09","summary":{"properties":{"geo":{"country":"United States of America","city":"Redmond","region":"WA","countrycode":"US"}}}},{"iid":105965,"indicator":"atmape.ru","type":"domain","risk":"medium","stamp_linked":"2017-11-21
+        22:09:16"},{"iid":106105,"indicator":"resr.configure.8c1.net","type":"domain","risk":"high","stamp_linked":"2018-05-01
+        20:08:22","summary":{"properties":{"geo":{"country":"Egypt","countrycode":"EG"}}}},{"iid":106139,"indicator":"prtscrinsertcn.net","type":"domain","risk":"medium","stamp_linked":"2018-02-06
+        14:48:33"},{"iid":106239,"indicator":"lzediamike.trade","type":"domain","risk":"high","stamp_linked":"2018-05-08
+        14:56:07","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":106375,"indicator":"jaaphram.com","type":"domain","risk":"medium","stamp_linked":"2018-01-28
+        21:08:07"},{"iid":106402,"indicator":"foxlimited.top","type":"domain","risk":"critical","stamp_linked":"2017-12-12
+        20:32:11"},{"iid":106936,"indicator":"bikeshophaidli.com","type":"domain","risk":"medium","stamp_linked":"2018-05-08
+        14:55:46"},{"iid":107637,"indicator":"l3d1.pp.ru","type":"domain","risk":"medium","stamp_linked":"2018-05-08
+        14:56:05"},{"iid":150893,"indicator":"jad.fisbonline.com","type":"domain","risk":"high","stamp_linked":"2018-04-18
+        06:59:17","summary":{"properties":{"geo":{"country":"United States","city":"Los
+        Angeles","region":"CA","countrycode":"US"}}}},{"iid":150895,"indicator":"kjkdndskjl.info","type":"domain","risk":"high","stamp_linked":"2017-10-27
+        06:22:24","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":150907,"indicator":"slanted.excelonlinereader.services","type":"domain","risk":"high","stamp_linked":"2018-01-16
+        20:51:19","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":152684,"indicator":"flex.comonwealthplc.com","type":"domain","risk":"critical","stamp_linked":"2018-05-01
+        20:08:00","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":156242,"indicator":"iclear.studentworkbook.pw","type":"domain","risk":"high","stamp_linked":"2017-11-24
+        14:58:34"},{"iid":229158,"indicator":"slap.alliancekl.com","type":"domain","risk":"medium","stamp_linked":"2017-11-08
+        08:48:09","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":1016017,"indicator":"deradprash.com","type":"domain","risk":"high","stamp_linked":"2018-04-29
+        23:50:21","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"United
+        States of America","city":"KIRKLAND","region":"WA","countrycode":"US"}}}},{"iid":1016018,"indicator":"freshwork.email-accountsettings.online","type":"domain","risk":"high","stamp_linked":"2018-04-29
+        23:50:29"},{"iid":1305184,"indicator":"front.postmaster.services","type":"domain","risk":"high","stamp_linked":"2018-05-29
+        09:28:06","summary":{"properties":{"whois":{"++privacy":"true"},"geo":{"country":"Panama","city":"Panama","region":"Panama","countrycode":"PA"}}}},{"iid":1574196,"indicator":"casaroyai.com","type":"domain","risk":"critical","stamp_linked":"2018-06-23
+        18:59:21","summary":{"properties":{"geo":{"country":"United States of America","city":"Cary","region":"NY","countrycode":"US"}}}}]}'
+    http_version: 
+  recorded_at: Sat, 21 Jul 2018 05:23:44 GMT
+recorded_with: VCR 4.0.0
