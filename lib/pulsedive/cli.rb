@@ -131,16 +131,16 @@ module Pulsedive
     end
 
     class Main < Thor
-      desc "indicator COMMAND", "indicator commands"
+      desc "indicator [COMMAND]", "indicator [COMMAND](get_by_id, get_by_value, get_links_by_id, get_properties_by_id)"
       subcommand "indicator", Indicator
 
-      desc "threat COMMAND", "threat commands"
+      desc "threat [COMMAND]", "threat [COMMAND](get_by_id get_by_name, get_linked_indicators_by_id, get_summary_by_id)"
       subcommand "threat", Threat
 
-      desc "feed COMMAND", "feed commands"
+      desc "feed [COMMAND]", "feed [COMMAND](get_by_id, get_linked_indicators_by_id)"
       subcommand "feed", Feed
 
-      desc "analyze COMMAND", "analyze commands"
+      desc "analyze [COMMAND]", "analyze [COMMAND](add_to_queue, get_results_by_id)"
       subcommand "analyze", Analyze
     end
   end

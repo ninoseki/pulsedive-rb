@@ -1,5 +1,3 @@
-require "dotenv/load"
-
 module Pulsedive
   class API
 
