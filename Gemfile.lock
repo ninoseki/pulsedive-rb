@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pulsedive (0.1.0)
+    pulsedive (0.1.1)
       activesupport (~> 5.2)
       thor (~> 0.20)
 
