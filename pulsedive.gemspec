@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "coveralls", "~> 0.8"
   spec.add_development_dependency "dotenv", "~> 2.5"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
@@ -30,5 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", "~> 3.4"
 
   spec.add_runtime_dependency "activesupport", "~> 5.2"
-  spec.add_runtime_dependency "thor", "~> 0.20"
+  spec.add_runtime_dependency "thor", "~> 0.19"
 end
