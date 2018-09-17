@@ -1,13 +1,12 @@
 require "bundler/setup"
 
-require "dotenv/load"
+require 'coveralls'
+Coveralls.wear!
 
+require "dotenv/load"
 require "pulsedive"
 require "rspec"
 require "vcr"
-
-require 'coveralls'
-Coveralls.wear!
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
