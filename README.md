@@ -1,26 +1,17 @@
 # pulsedive-rb
 
+[![Gem Version](https://badge.fury.io/rb/pulsedive.svg)](https://badge.fury.io/rb/pulsedive)
 [![Build Status](https://travis-ci.org/ninoseki/pulsedive-rb.svg?branch=master)](https://travis-ci.org/ninoseki/pulsedive-rb)
 [![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/pulsedive-rb/badge)](https://www.codefactor.io/repository/github/ninoseki/pulsedive-rb)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/pulsedive-rb/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/pulsedive-rb?branch=master)
 
-A Ruby library for [Pulsedive](https://pulsedive.com/) API
+[Pulsedive](https://pulsedive.com/) API wrapper for Ruby.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'pulsedive'
+```bash
+gem install pulsedive
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install pulsedive
 
 ## Usage
 
