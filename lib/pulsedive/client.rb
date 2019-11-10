@@ -38,16 +38,14 @@ module Pulsedive
     def request(req)
       Net::HTTP.start(HOST, 443, https_options) do |http|
         response = http.request(req)
-        if response.code == '200'
-          json = JSON.parse(response.body)
-          if json["error"]
-            raise(ResponseError, json["error"])
-          else
-            yield json
-          end
-        else
-          raise(ResponseError, "unsupported response code returned: #{response.code}")
+        if response.code != "200"
+          raise(ResponseError, "Unsupported response code returned: #{response.code}")
         end
+
+        json = JSON.parse(response.body)
+        raise(ResponseError, json["error"]) if json["error"]
+
+        yield json
       end
     end
 
