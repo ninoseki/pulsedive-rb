@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Pulsedive
   class Search < Client
     def search(params)

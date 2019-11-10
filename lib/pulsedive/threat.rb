@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Pulsedive
   class Threat < Client
     def get_by_id(tid)

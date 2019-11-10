@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/search.php?category%5B%5D=abuse&category%5B%5D=attack&category%5B%5D=botnet&category%5B%5D=crime&category%5B%5D=fraud&category%5B%5D=general&category%5B%5D=group&category%5B%5D=malware&category%5B%5D=proxy&category%5B%5D=pup&category%5B%5D=reconnaissance&category%5B%5D=spam&category%5B%5D=terrorism&category%5B%5D=vulnerability&key=&search=feed&splitrisk=1&value=zeus
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 10 Nov 2019 09:06:40 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '602'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"fid":1,"name":"Zeus Bad Domains","category":"malware","organization":"abuse.ch","pricing":"free","schedule":"daily","stamp_updated":"2018-10-08
+        00:41:35","stamp_pulled":"2019-11-10 03:16:07","stamp_modified":"2019-08-07
+        18:29:00","indicators":{"critical":"1","high":"1","medium":"1","low":"1"}},{"fid":2,"name":"Zeus
+        Bad IPs","category":"malware","organization":"abuse.ch","pricing":"free","schedule":"daily","stamp_updated":"2018-10-08
+        00:41:28","stamp_pulled":"2019-11-10 03:16:07","stamp_modified":"2019-08-07
+        18:29:01","indicators":{"high":"3","none":"94","medium":"12","low":"50"}}]}'
+    http_version: 
+  recorded_at: Sun, 10 Nov 2019 09:06:41 GMT
+recorded_with: VCR 5.0.0

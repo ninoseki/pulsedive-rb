@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 module Pulsedive
   class API
-
     attr_reader :api_key
     attr_reader :indicator
     attr_reader :threat

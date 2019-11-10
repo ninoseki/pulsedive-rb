@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Pulsedive do
   it "has a version number" do
     expect(Pulsedive::VERSION).not_to be nil

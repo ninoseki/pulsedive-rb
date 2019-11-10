@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 module Pulsedive
   class Indicator < Client
-
     def get_by_id(iid, schema = 1)
       params = {
         "iid": iid,

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "pulsedive/api"
 require "pulsedive/error"
 require "pulsedive/client"

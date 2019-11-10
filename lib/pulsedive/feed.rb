@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Pulsedive
   class Feed < Client
     def get_by_id(fid)
