@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 require "thor"
 require "json"
 
 module Pulsedive
   module CLI
     class Base < Thor
-
       class_option :API_KEY, type: :string
 
       no_commands do
@@ -16,7 +17,7 @@ module Pulsedive
           yield
         rescue ResponseError => e
           puts "Warning: #{e}"
-        rescue ArgumentError => _
+        rescue ArgumentError => _e
           puts "Please provide your Pulsedive API key via --API_KEY or ENV['PULSEDIVE_API_KEY']"
         end
       end

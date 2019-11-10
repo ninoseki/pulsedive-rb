@@ -1,14 +1,15 @@
+# frozen_string_literal: true
+
 require 'net/https'
 require 'active_support'
 require 'active_support/core_ext/hash'
 
 module Pulsedive
   class Client
-
     attr_reader :api_key
 
-    HOST = "pulsedive.com".freeze
-    URL = "https://#{HOST}".freeze
+    HOST = "pulsedive.com"
+    URL = "https://#{HOST}"
 
     def initialize(api_key)
       @api_key = api_key
@@ -24,8 +25,8 @@ module Pulsedive
       if proxy = ENV["HTTPS_PROXY"] || ENV["https_proxy"]
         uri = URI(proxy)
         {
-          proxy_address:  uri.hostname,
-          proxy_port:     uri.port,
+          proxy_address: uri.hostname,
+          proxy_port: uri.port,
           proxy_from_env: false,
           use_ssl: true
         }
@@ -59,7 +60,7 @@ module Pulsedive
       request(get, &block)
     end
 
-    def post(path, params , &block)
+    def post(path, params, &block)
       params["key"] = api_key
 
       post = Net::HTTP::Post.new(url_for(path))

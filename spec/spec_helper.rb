@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "bundler/setup"
 
 require 'coveralls'
@@ -31,7 +33,7 @@ VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.configure_rspec_metadata!
   config.hook_into :webmock
-  config.filter_sensitive_data("<API_KEY>") { ENV["PULSEDIVE_API_KEY"]}
+  config.filter_sensitive_data("<API_KEY>") { ENV["PULSEDIVE_API_KEY"] }
   config.filter_sensitive_data("<SESSION_ID>") do |interaction|
     interaction.response.headers["Set-Cookie"].first
   end

@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?iid=2&key=<API_KEY>&schema=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 10 Nov 2019 09:09:27 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - '0'
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Request-Id:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"iid":2,"type":"domain","indicator":"alvoportas.com.br","risk":"low","risk_recommended":"low","manualrisk":0,"retired":"No
+        recent activity","stamp_added":"2017-09-27 18:11:38","stamp_updated":"2019-10-03
+        01:39:22","stamp_seen":"2019-06-30 17:29:31","stamp_probed":"2019-06-30 17:29:33","stamp_retired":"2019-10-03
+        01:39:22","recent":0,"schema":{"hosttype":"Host Type","port":"Port","protocol":"Protocol","technology":"Technology"},"riskfactors":[{"rfid":2,"description":"found
+        in third-party feeds","risk":"medium"},{"rfid":3,"description":"all linked
+        indicators return PTR records","risk":"none"}],"attributes":{"hosttype":["Subdomain"],"port":["143","21","22","25","443","465","53","80","993"],"protocol":["DNS","FTP","HTTP","HTTPS","IMAP","IMAPS","SMTP","SMTPS","SSH"],"technology":["Apache","Bootstrap","jQuery","mod_perl","mod_ssl","OpenSSL","Perl","UNIX"]},"domain":"com.br","domainiid":3878723,"properties":{"banners":{"21":"220----------
+        Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1
+        of 50 allowed.\n220-Local time is now 14:29. Server port: 21.\n220-This is
+        a private system - No anonymous login\n220-IPv6 connections are also welcome
+        on this server.\n220 You will be disconnected after 15 minutes of inactivity."},"dns":{"A":"177.70.125.89","MNAME":"ns1.emidhost.com.br","MX":"alvoportas.com.br","NS":["ns1.emidhost.com.br"],"RNAME":"cpanel@emidhost.com.br","SOA":"ns1.emidhost.com.br.
+        cpanel.emidhost.com.br. 2019062805 3600 1800 1209600 86400","TXT":"v=spf1
+        ip4:177.70.125.89 include:spf.emidhost.com.br +a +mx +ip4:177.70.125.91 ~all"},"geo":{"country":"Brazil","countrycode":"BR"},"http":{"++code":"200","++status":"OK","Connection":"close","Content-Type":"text\/html","date":"Fri,
+        22 Mar 2019 08:59:08 GMT","Server":"Apache\/2.2.31 (Unix) mod_ssl\/2.2.31
+        OpenSSL\/1.0.1e-fips mod_bwlimited\/1.4 mod_qos\/11.5 mod_perl\/2.0.8 Perl\/v5.10.1","transfer-encoding":"chunked","X-Powered-By":"PHP\/5.5.30"},"meta":{"++title":"Alvo
+        Portas","charset":"UTF-8","viewport":"width=device-width, initial-scale=1.0"},"ssl":{"domain":"alvoportas.com.br","expires":"2019-06-11
+        23:59:59","issuer":"\/C=US\/S=TX\/l=Houston\/O=cPanel, Inc.\/CN=cPanel, Inc.
+        Certification Authority","org":"cPanel, Inc. Certification Authority","subject":"\/CN=alvoportas.com.br","valid":"2019-03-13
+        00:00:00","version":"v3"},"whois":{"++email":["h@brasnet.org","omeulote@gmail.com"],"++expires":"2020-06-11
+        00:00:00","++registered":"2005-11-12 00:00:00","++registrant":"JMN226","admin-c":"JMN226","billing-c":"DOM58","changed":["20190625"],"Country":"BR","created":["20020907","20041216","20050611
+        changed: 20190627"],"domain":"alvoportas.com.br","e-mail":["hospedagem@emid.com.br","omeulote@gmail.com"],"expires":"20200611","nic-hdl-br":["JMN226","ZEC15"],"nserver":["ns1.emidhost.com.br"],"nslastaa":"20190627","nsstat":"20190627
+        AA","owner":"C.L.F. IND. E COM DE ESQUADRIAS DE MADEIRA LTDA","owner-c":"ZEC15","ownerid":"00.218.763\/0001-03","person":["Joni
+        Marcos Niesdaviecki","Zero Cool"],"responsible":"Zero Cool","status":"published","tech-c":"DOM58"}},"threats":[{"tid":67,"name":"Phishing","category":"phishing","risk":"medium","stamp_linked":"2018-01-22
+        08:49:31"},{"tid":1,"name":"Zeus","category":"malware","risk":"high","stamp_linked":"2018-05-08
+        14:55:46"}],"feeds":[{"fid":1,"name":"Zeus Bad Domains","category":"malware","organization":"abuse.ch","pricing":"free","stamp_linked":"2018-05-08
+        14:55:46"}]}'
+    http_version: 
+  recorded_at: Sun, 10 Nov 2019 09:09:27 GMT
+recorded_with: VCR 5.0.0

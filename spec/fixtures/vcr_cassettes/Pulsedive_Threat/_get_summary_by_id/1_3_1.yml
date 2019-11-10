@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pulsedive.com/api/info.php?get=links&key=<API_KEY>&splitrisk=1&summary=1&tid=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pulsedive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 10 Nov 2019 09:02:46 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Set-Cookie:
+      - "<SESSION_ID>"
+      Expires:
+      - '0'
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      X-Robots-Tag:
+      - noindex
+      X-Request-Id:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"risk":{"unknown":1,"none":128,"low":64,"medium":16,"high":4,"critical":2},"feeds":[{"fid":9,"name":"SSL
+        BL","category":"malware","organization":"abuse.ch","pricing":"free","indicators":{"none":1}},{"fid":1,"name":"Zeus
+        Bad Domains","category":"malware","organization":"abuse.ch","pricing":"free","indicators":{"critical":1,"low":1,"medium":1,"high":1}},{"fid":2,"name":"Zeus
+        Bad IPs","category":"malware","organization":"abuse.ch","pricing":"free","indicators":{"medium":12,"high":3,"none":93,"low":50}}],"attributes":{"protocol":{"HTTP":{"indicators":{"none":97,"low":35,"medium":5,"high":4}},"HTTPS":{"indicators":{"none":63,"low":17,"high":4,"medium":4}},"DNS":{"indicators":{"none":56,"low":12}},"SMTP":{"indicators":{"none":25,"low":4}},"SSH":{"indicators":{"none":23,"low":6}},"FTP":{"indicators":{"none":20}},"SMTPS":{"indicators":{"none":17}},"IMAPS":{"indicators":{"none":17}},"IMAP":{"indicators":{"none":17}},"SIP":{"indicators":{"low":4}},"RDP":{"indicators":{"none":3}}},"port":{"80":{"indicators":{"none":94,"low":35,"medium":5,"high":4}},"443":{"indicators":{"none":63,"low":17,"high":4,"medium":4}},"25":{"indicators":{"none":25,"low":4}},"22":{"indicators":{"none":23,"low":6}},"21":{"indicators":{"none":20}},"53":{"indicators":{"none":20,"low":5}},"465":{"indicators":{"none":17}},"993":{"indicators":{"none":17}},"143":{"indicators":{"none":17}},"8080":{"indicators":{"none":10}},"8443":{"indicators":{"none":4}},"5060":{"indicators":{"low":4}},"3389":{"indicators":{"none":3}}},"technology":{"IIS":{"indicators":{"none":48,"low":5}},"Microsoft
+        ASP.NET":{"indicators":{"none":48,"low":5}},"Apache":{"indicators":{"none":17,"low":7}},"Nginx":{"indicators":{"low":15,"none":13}},"Google
+        Analytics":{"indicators":{"low":11,"none":4}},"Windows Server":{"indicators":{"none":9}},"Font
+        Awesome":{"indicators":{"low":9,"none":4}},"jQuery":{"indicators":{"none":8}},"Google
+        Font API":{"indicators":{"low":7,"none":6}},"PHP":{"indicators":{"none":7}},"Java":{"indicators":{"low":7}},"Bootstrap":{"indicators":{"none":6}},"LiteSpeed":{"indicators":{"none":6}},"MySQL":{"indicators":{"none":5}},"WordPress":{"indicators":{"none":5}},"OpenSSL":{"indicators":{"none":4}},"UNIX":{"indicators":{"none":3}},"animate.css":{"indicators":{"none":3}},"Liveinternet":{"indicators":{"none":3}},"Ubuntu":{"indicators":{"none":3}},"Google
+        Tag Manager":{"indicators":{"low":3}},"jQuery UI":{"indicators":{"none":3}}},"hosttype":{"Name
+        Server":{"indicators":{"none":43,"low":10}}}}}'
+    http_version: 
+  recorded_at: Sun, 10 Nov 2019 09:02:47 GMT
+recorded_with: VCR 5.0.0
