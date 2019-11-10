@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require 'net/https'
-require 'active_support'
-require 'active_support/core_ext/hash'
+require "net/https"
+require "uri"
 
 module Pulsedive
   class Client
@@ -53,7 +52,7 @@ module Pulsedive
       params["key"] = api_key
 
       url = url_for(path)
-      url.query = params.to_query
+      url.query = URI.encode_www_form(params)
       get = Net::HTTP::Get.new(url)
       request(get, &block)
     end
