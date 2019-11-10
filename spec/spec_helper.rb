@@ -3,9 +3,7 @@ require "bundler/setup"
 require 'coveralls'
 Coveralls.wear!
 
-require "dotenv/load"
 require "pulsedive"
-require "rspec"
 require "vcr"
 
 RSpec.configure do |config|
