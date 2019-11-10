@@ -117,7 +117,7 @@ module Pulsedive
         enrich = options[:enrich] || 1
         probe = options[:probe] || 1
         with_error_handling do
-          json = api.analyze.add_to_queue(ioc, enrich, probe)
+          json = api.analyze.add_to_queue(ioc, enrich: enrich, probe: probe)
           puts JSON.pretty_generate(json)
         end
       end

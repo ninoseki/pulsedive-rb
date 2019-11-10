@@ -2,7 +2,7 @@
 
 module Pulsedive
   class Indicator < Client
-    def get_by_id(iid, schema = 1)
+    def get_by_id(iid, schema: 1)
       params = {
         "iid": iid,
         "schema": schema
@@ -17,7 +17,7 @@ module Pulsedive
       get("/api/info.php", params) { |json| json }
     end
 
-    def get_links_by_id(iid, page = 0)
+    def get_links_by_id(iid, page: 0)
       params = {
         "iid": iid,
         "get": "links",
