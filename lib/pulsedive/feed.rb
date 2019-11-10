@@ -9,7 +9,7 @@ module Pulsedive
       get("/api/info.php", params) { |json| json }
     end
 
-    def get_linked_indicators_by_id(fid, page = 0)
+    def get_linked_indicators_by_id(fid, page: 0)
       params = {
         "fid": fid,
         "get": "links",
