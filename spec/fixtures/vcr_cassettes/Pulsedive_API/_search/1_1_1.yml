@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pulsedive.com/api/search.php?category%5B%5D=abuse&category%5B%5D=attack&category%5B%5D=botnet&category%5B%5D=crime&category%5B%5D=fraud&category%5B%5D=general&category%5B%5D=group&category%5B%5D=malware&category%5B%5D=proxy&category%5B%5D=pup&category%5B%5D=reconnaissance&category%5B%5D=spam&category%5B%5D=terrorism&category%5B%5D=vulnerability&key=&search=feed&splitrisk=1&value=zeus
+    uri: https://pulsedive.com/api/search.php?category%5B%5D=abuse&category%5B%5D=attack&category%5B%5D=botnet&category%5B%5D=crime&category%5B%5D=fraud&category%5B%5D=general&category%5B%5D=group&category%5B%5D=malware&category%5B%5D=proxy&category%5B%5D=pup&category%5B%5D=reconnaissance&category%5B%5D=spam&category%5B%5D=terrorism&category%5B%5D=vulnerability&key=<API_KEY>&search=feed&splitrisk=1&value=zeus
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 10 Nov 2019 09:06:40 GMT
+      - Sun, 10 Nov 2019 09:47:41 GMT
       Server:
       - Apache
       Strict-Transport-Security:
@@ -55,5 +55,5 @@ http_interactions:
         00:41:28","stamp_pulled":"2019-11-10 03:16:07","stamp_modified":"2019-08-07
         18:29:01","indicators":{"high":"3","none":"94","medium":"12","low":"50"}}]}'
     http_version: 
-  recorded_at: Sun, 10 Nov 2019 09:06:41 GMT
+  recorded_at: Sun, 10 Nov 2019 09:47:41 GMT
 recorded_with: VCR 5.0.0
