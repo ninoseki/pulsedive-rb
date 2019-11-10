@@ -1,7 +1,7 @@
 # pulsedive-rb
 
 [![Build Status](https://travis-ci.org/ninoseki/pulsedive-rb.svg?branch=master)](https://travis-ci.org/ninoseki/pulsedive-rb)
-[![Maintainability](https://api.codeclimate.com/v1/badges/35b08b3018cee65b42a0/maintainability)](https://codeclimate.com/github/ninoseki/pulsedive-rb/maintainability)
+[![CodeFactor](https://www.codefactor.io/repository/github/ninoseki/pulsedive-rb/badge)](https://www.codefactor.io/repository/github/ninoseki/pulsedive-rb)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/pulsedive-rb/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/pulsedive-rb?branch=master)
 
 A Ruby library for [Pulsedive](https://pulsedive.com/) API
