@@ -31,5 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr", "~> 5.0"
   spec.add_development_dependency "webmock", "~> 3.7"
 
-  spec.add_runtime_dependency "thor", "~> 0.20"
+  spec.add_runtime_dependency "thor", "~> 1.0"
 end
